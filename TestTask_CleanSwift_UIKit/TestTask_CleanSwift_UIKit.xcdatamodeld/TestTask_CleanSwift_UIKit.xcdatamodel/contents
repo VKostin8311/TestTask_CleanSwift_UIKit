@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17709" systemVersion="20D91" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="StoredData" representedClassName="StoredData" syncable="YES">
+        <attribute name="approach" attributeType="String" defaultValueString=""/>
+        <attribute name="diamMax" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="diamMin" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="distanceAE" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="distancKM" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="hazard" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="kmPerHour" attributeType="Double" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="kmPerSec" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="magnitude" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="name" attributeType="String" defaultValueString=""/>
+        <attribute name="objectId" attributeType="String" defaultValueString=""/>
+        <attribute name="sentry" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
+    </entity>
+    <elements>
+        <element name="StoredData" positionX="-63" positionY="-18" width="128" height="14"/>
+    </elements>
+</model>
